@@ -1,0 +1,29 @@
+
+agents:
+  - id: researcher
+    class: ResearcherAgent
+    tools: [search_tool]
+
+  - id: scraper
+    class: ScraperAgent
+    tools: [scrape_tool]
+
+  - id: ml
+    class: MLAgent
+    tools: [ml_tool]
+
+workflow:
+  - source: start
+    target: researcher
+    input: {"query": "How to identify churn risk in SaaS customers"}
+
+  - source: researcher
+    target: scraper
+
+  - source: scraper
+    target: ml
+    input: {
+      "training_data_path": "data/churn_training.csv",
+      "target_column": "churned",
+      "prediction_data_path": "data/churn_to_predict.csv"
+    }

@@ -1,0 +1,24 @@
+
+agents:
+  - id: researcher
+    class: ResearcherAgent
+    tools: [search_tool]
+
+  - id: scraper
+    class: ScraperAgent
+    tools: [scrape_tool]
+
+  - id: ml
+    class: MLAgent
+    tools: [ml_tool]
+
+workflow:
+  - source: start
+    target: researcher
+    input: {"query": "Top solar panel companies in Ohio 2025"}
+
+  - source: researcher
+    target: scraper
+
+  - source: scraper
+    target: ml
