@@ -1,0 +1,1586 @@
+{
+  "status": "success",
+  "model_performance": {
+    "best_model": "Gradient Boosting",
+    "roc_auc": 1.0,
+    "accuracy": 1.0,
+    "f1_score": 1.0
+  },
+  "predictions": [
+    {
+      "property_id": "RF_Seattle, WA_0001",
+      "address": "9649 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0002",
+      "address": "5675 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0003",
+      "address": "5290 Cedar Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0006",
+      "address": "8547 Main Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0009",
+      "address": "4812 Pine St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0008",
+      "address": "5091 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0020",
+      "address": "702 Maple Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0021",
+      "address": "475 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0012",
+      "address": "5868 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0011",
+      "address": "8193 Maple Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0022",
+      "address": "1586 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0016",
+      "address": "2340 Main Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0049",
+      "address": "6691 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0048",
+      "address": "5514 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0031",
+      "address": "4946 Maple St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0032",
+      "address": "5834 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0033",
+      "address": "1004 Maple St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0035",
+      "address": "5878 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0036",
+      "address": "6274 Pine Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0026",
+      "address": "5735 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0024",
+      "address": "1254 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0023",
+      "address": "9288 Main Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0125",
+      "address": "768 Pine Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0124",
+      "address": "8288 Pine St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0132",
+      "address": "7172 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0130",
+      "address": "6273 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0139",
+      "address": "6622 Pine Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0142",
+      "address": "204 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0106",
+      "address": "9275 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0109",
+      "address": "282 Main Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0095",
+      "address": "3607 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0144",
+      "address": "1792 Pine Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0053",
+      "address": "2995 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0052",
+      "address": "3635 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0041",
+      "address": "3347 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0046",
+      "address": "5136 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0042",
+      "address": "8464 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0056",
+      "address": "3787 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0071",
+      "address": "285 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0070",
+      "address": "3205 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0068",
+      "address": "1002 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0067",
+      "address": "6598 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0084",
+      "address": "1440 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0072",
+      "address": "9479 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0078",
+      "address": "8241 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0081",
+      "address": "4257 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0063",
+      "address": "9788 Main Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0060",
+      "address": "1750 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0059",
+      "address": "7713 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0100",
+      "address": "9283 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0091",
+      "address": "8131 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0092",
+      "address": "4450 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0093",
+      "address": "7988 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0088",
+      "address": "7843 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0102",
+      "address": "8938 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0098",
+      "address": "2377 Maple St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0148",
+      "address": "8325 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0147",
+      "address": "4065 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0135",
+      "address": "1356 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0149",
+      "address": "6950 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0138",
+      "address": "3759 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0150",
+      "address": "7523 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0004",
+      "address": "4529 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0005",
+      "address": "2625 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0017",
+      "address": "1220 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0018",
+      "address": "5669 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0010",
+      "address": "5508 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0007",
+      "address": "8827 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0013",
+      "address": "444 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0014",
+      "address": "3853 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0019",
+      "address": "4701 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0015",
+      "address": "3487 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0054",
+      "address": "2747 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0050",
+      "address": "647 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0039",
+      "address": "4854 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0043",
+      "address": "7635 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0044",
+      "address": "8606 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0045",
+      "address": "9967 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0040",
+      "address": "1090 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0051",
+      "address": "2165 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0047",
+      "address": "4537 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0025",
+      "address": "9542 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0038",
+      "address": "5142 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0037",
+      "address": "9819 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0034",
+      "address": "9550 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0030",
+      "address": "1523 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0086",
+      "address": "227 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0085",
+      "address": "5125 Pine Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0083",
+      "address": "794 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0082",
+      "address": "4450 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0079",
+      "address": "5525 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0080",
+      "address": "9742 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0076",
+      "address": "4319 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0077",
+      "address": "2654 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0073",
+      "address": "4395 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0074",
+      "address": "8168 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0075",
+      "address": "9723 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0058",
+      "address": "4506 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0066",
+      "address": "5401 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0065",
+      "address": "9824 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0064",
+      "address": "5140 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0069",
+      "address": "8046 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0055",
+      "address": "3802 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0057",
+      "address": "5179 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0061",
+      "address": "1553 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0062",
+      "address": "8641 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0027",
+      "address": "3422 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0028",
+      "address": "9444 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0029",
+      "address": "1017 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0104",
+      "address": "5171 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0101",
+      "address": "8083 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0099",
+      "address": "5845 Maple Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0094",
+      "address": "7183 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0087",
+      "address": "4883 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0097",
+      "address": "4229 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0096",
+      "address": "3084 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0089",
+      "address": "6307 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0090",
+      "address": "2425 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0118",
+      "address": "2623 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0117",
+      "address": "516 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0116",
+      "address": "820 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0115",
+      "address": "7818 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0114",
+      "address": "5620 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0113",
+      "address": "1548 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0112",
+      "address": "4430 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0111",
+      "address": "7213 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0110",
+      "address": "7271 Pine Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0108",
+      "address": "9961 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0107",
+      "address": "3006 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0105",
+      "address": "8910 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0103",
+      "address": "8864 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0122",
+      "address": "8184 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0119",
+      "address": "2416 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0121",
+      "address": "8679 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0134",
+      "address": "125 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0133",
+      "address": "8369 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0131",
+      "address": "9434 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0129",
+      "address": "1426 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0127",
+      "address": "5259 Maple Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0128",
+      "address": "8970 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0123",
+      "address": "465 Maple Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0126",
+      "address": "8024 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0120",
+      "address": "2196 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0140",
+      "address": "2862 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0136",
+      "address": "3809 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0137",
+      "address": "6140 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0141",
+      "address": "5467 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0146",
+      "address": "5262 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0143",
+      "address": "4617 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0145",
+      "address": "3340 Pine Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8399549592563267e-05,
+      "confidence_level": "Low"
+    }
+  ],
+  "high_probability_leads": [
+    {
+      "property_id": "RF_Seattle, WA_0001",
+      "address": "9649 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0002",
+      "address": "5675 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0003",
+      "address": "5290 Cedar Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0006",
+      "address": "8547 Main Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0009",
+      "address": "4812 Pine St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0008",
+      "address": "5091 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0020",
+      "address": "702 Maple Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0021",
+      "address": "475 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0012",
+      "address": "5868 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0011",
+      "address": "8193 Maple Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0022",
+      "address": "1586 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0016",
+      "address": "2340 Main Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0049",
+      "address": "6691 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0048",
+      "address": "5514 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0031",
+      "address": "4946 Maple St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0032",
+      "address": "5834 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0033",
+      "address": "1004 Maple St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0035",
+      "address": "5878 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0036",
+      "address": "6274 Pine Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0026",
+      "address": "5735 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0024",
+      "address": "1254 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0023",
+      "address": "9288 Main Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0125",
+      "address": "768 Pine Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0124",
+      "address": "8288 Pine St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0132",
+      "address": "7172 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0130",
+      "address": "6273 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0139",
+      "address": "6622 Pine Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0142",
+      "address": "204 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0106",
+      "address": "9275 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0109",
+      "address": "282 Main Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0095",
+      "address": "3607 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0144",
+      "address": "1792 Pine Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0053",
+      "address": "2995 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0052",
+      "address": "3635 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0041",
+      "address": "3347 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0046",
+      "address": "5136 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0042",
+      "address": "8464 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0056",
+      "address": "3787 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0071",
+      "address": "285 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0070",
+      "address": "3205 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0068",
+      "address": "1002 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0067",
+      "address": "6598 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0084",
+      "address": "1440 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0072",
+      "address": "9479 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0078",
+      "address": "8241 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0081",
+      "address": "4257 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0063",
+      "address": "9788 Main Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0060",
+      "address": "1750 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0059",
+      "address": "7713 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0100",
+      "address": "9283 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0091",
+      "address": "8131 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0092",
+      "address": "4450 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0093",
+      "address": "7988 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0088",
+      "address": "7843 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0102",
+      "address": "8938 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0098",
+      "address": "2377 Maple St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0148",
+      "address": "8325 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0147",
+      "address": "4065 Pine Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0135",
+      "address": "1356 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0149",
+      "address": "6950 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0138",
+      "address": "3759 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Seattle, WA_0150",
+      "address": "7523 Oak St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999746943085595,
+      "confidence_level": "High"
+    }
+  ],
+  "insights": {
+    "model_performance": {
+      "best_model": "Gradient Boosting",
+      "roc_auc": 1.0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "top_features": [
+      [
+        "sell_probability",
+        0.9999999999999991
+      ],
+      [
+        "equity",
+        3.764898330921141e-16
+      ],
+      [
+        "purchase_price",
+        1.1638893991914555e-16
+      ],
+      [
+        "value_vs_neighbors",
+        1.1213080797088413e-16
+      ],
+      [
+        "market_appreciation_vs_area",
+        8.285615082658684e-17
+      ],
+      [
+        "years_since_purchase",
+        7.345277610750954e-17
+      ],
+      [
+        "sqft",
+        2.9806923637829954e-17
+      ],
+      [
+        "price_per_sqft",
+        9.048530390055523e-18
+      ],
+      [
+        "latitude",
+        0.0
+      ],
+      [
+        "longitude",
+        0.0
+      ]
+    ],
+    "data_insights": {
+      "total_properties": 150,
+      "properties_likely_to_sell": "62",
+      "sell_rate": 0.41333333333333333,
+      "avg_property_value": 1119550.7533333334,
+      "avg_equity_ratio": 0.5918400383893061
+    },
+    "recommendations": [
+      "Focus on properties with high sell_probability - this is the strongest predictor",
+      "Target properties with high equity ratios - owners are more likely to sell",
+      "Consider properties that haven't sold recently - owners may be ready for a change",
+      "Area demographics are important - focus on growing or changing neighborhoods"
+    ]
+  },
+  "feature_importance": {
+    "sell_probability": 0.9999999999999991,
+    "equity": 3.764898330921141e-16,
+    "purchase_price": 1.1638893991914555e-16,
+    "value_vs_neighbors": 1.1213080797088413e-16,
+    "market_appreciation_vs_area": 8.285615082658684e-17,
+    "years_since_purchase": 7.345277610750954e-17,
+    "sqft": 2.9806923637829954e-17,
+    "price_per_sqft": 9.048530390055523e-18,
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "bedrooms": 0.0,
+    "bathrooms": 0.0,
+    "current_value": 0.0,
+    "value_appreciation": 0.0,
+    "days_since_last_sale": 0.0
+  },
+  "summary": {
+    "total_properties_analyzed": 150,
+    "high_probability_count": 62,
+    "medium_probability_count": 0,
+    "low_probability_count": 88,
+    "avg_sell_probability": 0.41333366804996546,
+    "model_accuracy": 1.0
+  }
+}
