@@ -3,6 +3,8 @@ import yaml
 from agents.researcher_agent import ResearcherAgent
 from agents.scraper_agent import ScraperAgent
 from agents.ml_agent import MLAgent
+from agents.housing_data_agent import HousingDataAgent
+from agents.housing_ml_agent import HousingMLAgent
 from utils.logger import setup_logger
 
 class OrchestratorAgent:
@@ -12,7 +14,9 @@ class OrchestratorAgent:
         self.agents = {
             "researcher": ResearcherAgent("researcher"),
             "scraper": ScraperAgent("scraper"),
-            "ml": MLAgent("ml")
+            "ml": MLAgent("ml"),
+            "housing_data": HousingDataAgent("housing_data"),
+            "housing_ml": HousingMLAgent("housing_ml")
         }
 
     def load_workflow(self, path):
@@ -25,8 +29,24 @@ class OrchestratorAgent:
             source = step["source"]
             target = step["target"]
             agent = self.agents[target]
-            input_data = step.get("input", state.get(source, {}))
-            self.logger.info(f"Running {target} with input: {input_data}")
+            
+            # Prepare input data
+            if source == "input":
+                input_data = step.get("input", {})
+            else:
+                # Pass data from previous agent
+                source_data = state.get(source, {})
+                step_input = step.get("input", {})
+                input_data = {**source_data, **step_input}
+            
+            self.logger.info(f"Running {target} agent...")
             result = agent.handle(input_data)
-            self.logger.info(f"{target} result: {result}")
+            
+            if isinstance(result, dict) and result.get('status') == 'error':
+                self.logger.error(f"{target} failed: {result.get('message', 'Unknown error')}")
+                return state
+            
+            self.logger.info(f"{target} completed successfully")
             state[target] = result
+        
+        return state
