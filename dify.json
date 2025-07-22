@@ -1,0 +1,19 @@
+
+{
+  "name": "multi-agent-runner",
+  "description": "Run multi-agent workflows like churn prediction or lead scraping",
+  "url": "http://localhost:8000/run-workflow",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "multipart/form-data"
+  },
+  "input": {
+    "workflow_name": "text",
+    "training_file": "file",
+    "prediction_file": "file"
+  },
+  "output": {
+    "status": "text",
+    "workflow": "text"
+  }
+}

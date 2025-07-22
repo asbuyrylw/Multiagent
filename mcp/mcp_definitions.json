@@ -1,0 +1,23 @@
+
+{
+  "search_tool": {
+    "input_schema": {"query": "string"},
+    "output_schema": {"results": "list<string>"}
+  },
+  "scrape_tool": {
+    "input_schema": {"url": "string"},
+    "output_schema": {"text": "string"}
+  },
+  "ml_tool": {
+    "input_schema": {
+      "training_data_path": "string",
+      "target_column": "string",
+      "prediction_data_path": "string"
+    },
+    "output_schema": {
+      "accuracy": "float",
+      "predictions": "list<object>",
+      "feature_importance": "object"
+    }
+  }
+}
