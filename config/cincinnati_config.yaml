@@ -1,0 +1,181 @@
+name: "Cincinnati Housing Sales Prediction System"
+version: "1.0.0"
+environment: "production"
+
+# Geographic Configuration
+location:
+  city: "Cincinnati"
+  state: "Ohio"
+  coordinates:
+    lat: 39.1031
+    lon: -84.5120
+  coverage_radius_miles: 50
+  
+  # Cincinnati metro area counties
+  counties:
+    - "Hamilton County"
+    - "Butler County" 
+    - "Warren County"
+    - "Clermont County"
+    - "Campbell County, KY"
+    - "Kenton County, KY"
+    - "Boone County, KY"
+
+# Data Sources Configuration
+data_sources:
+  redfin:
+    enabled: true
+    api_endpoint: "https://www.redfin.com/stingray/api"
+    rate_limit_requests_per_minute: 60
+    batch_size: 100
+    property_types: ["Single Family", "Townhouse", "Condo"]
+    
+  zillow:
+    enabled: true
+    api_key_env: "ZILLOW_API_KEY"
+    rate_limit_requests_per_minute: 1000
+    
+  census:
+    enabled: true
+    api_key_env: "CENSUS_API_KEY"
+    base_url: "https://api.census.gov/data"
+    datasets:
+      - "acs/acs5"  # American Community Survey 5-year
+      - "dec/pl"    # Decennial Census
+      
+# ML Model Configuration  
+machine_learning:
+  models:
+    random_forest:
+      enabled: true
+      n_estimators: 200
+      max_depth: 12
+      min_samples_split: 15
+      min_samples_leaf: 8
+      max_features: "sqrt"
+      
+    gradient_boosting:
+      enabled: true
+      n_estimators: 150
+      max_depth: 6
+      learning_rate: 0.05
+      min_samples_split: 20
+      min_samples_leaf: 10
+      
+    xgboost:
+      enabled: true
+      n_estimators: 200
+      max_depth: 8
+      learning_rate: 0.03
+      min_child_weight: 5
+      
+  # Feature Engineering
+  features:
+    property_features:
+      - "bedrooms"
+      - "bathrooms" 
+      - "sqft"
+      - "lot_size"
+      - "year_built"
+      - "property_type"
+      
+    financial_features:
+      - "current_value"
+      - "value_appreciation"
+      - "equity_ratio"
+      - "property_tax"
+      - "hoa_fees"
+      
+    location_features:
+      - "school_rating"
+      - "walk_score"
+      - "crime_rate"
+      - "distance_to_downtown"
+      - "neighborhood_appreciation"
+      
+    demographic_features:
+      - "area_population_change"
+      - "area_income_change"
+      - "employment_rate"
+      - "migration_in_rate"
+      - "migration_out_rate"
+      
+  # Model Validation
+  validation:
+    test_size: 0.2
+    cv_folds: 5
+    scoring_metrics:
+      - "accuracy"
+      - "precision"
+      - "recall"
+      - "f1_score"
+      - "roc_auc"
+      
+# Production Settings
+production:
+  batch_processing:
+    enabled: true
+    schedule: "0 2 * * *"  # Daily at 2 AM
+    batch_size: 1000
+    
+  real_time:
+    enabled: true
+    api_port: 8080
+    max_requests_per_minute: 100
+    
+  monitoring:
+    enabled: true
+    log_level: "INFO"
+    metrics_retention_days: 90
+    alert_threshold_accuracy: 0.75
+    
+  data_storage:
+    database_type: "postgresql"
+    connection_string_env: "DATABASE_URL"
+    backup_schedule: "0 1 * * *"  # Daily at 1 AM
+    retention_days: 365
+    
+# Market-Specific Thresholds (Cincinnati)
+market_thresholds:
+  price_ranges:
+    low: "0-200000"
+    medium: "200000-500000" 
+    high: "500000-1000000"
+    luxury: "1000000+"
+    
+  sale_probability_thresholds:
+    very_low: "0.0-0.2"
+    low: "0.2-0.4"
+    medium: "0.4-0.6"
+    high: "0.6-0.8"
+    very_high: "0.8-1.0"
+    
+  lead_scoring:
+    hot_lead_threshold: 0.75
+    warm_lead_threshold: 0.50
+    cold_lead_threshold: 0.25
+
+# Business Rules
+business_rules:
+  exclusions:
+    - "new_construction_under_6_months"
+    - "recent_sale_under_3_months"
+    - "foreclosure_active"
+    
+  priority_factors:
+    - "high_equity_ratio"
+    - "long_ownership_period"
+    - "neighborhood_gentrification"
+    - "job_market_changes"
+    
+# Compliance & Privacy
+compliance:
+  data_privacy:
+    anonymize_addresses: true
+    encrypt_personal_data: true
+    gdpr_compliant: true
+    
+  fair_housing:
+    exclude_protected_classes: true
+    bias_monitoring: true
+    regular_audits: true

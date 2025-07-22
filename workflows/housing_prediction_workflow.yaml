@@ -1,0 +1,29 @@
+name: "Housing Sales Prediction Workflow"
+description: "Multi-agent workflow to predict home sales likelihood using Redfin and Census data"
+
+workflow:
+  - source: "input"
+    target: "housing_data"
+    input:
+      location: "Seattle, WA"
+      property_count: 150
+    
+  - source: "housing_data"
+    target: "housing_ml"
+    input: {}
+
+agents:
+  housing_data:
+    description: "Collects property data from Redfin and demographic data from Census"
+    data_sources: ["Redfin API", "US Census API"]
+    
+  housing_ml:
+    description: "Trains ML models and generates predictions for property sales likelihood"
+    models: ["Random Forest", "Gradient Boosting", "Logistic Regression"]
+    
+output_format:
+  - high_probability_leads
+  - model_performance_metrics
+  - feature_importance_analysis
+  - area_demographic_insights
+  - actionable_recommendations

@@ -7,3 +7,12 @@ scikit-learn
 sentence-transformers
 faiss-cpu
 pyyaml
+numpy
+matplotlib
+seaborn
+xgboost
+lightgbm
+census
+geopy
+folium
+plotly
