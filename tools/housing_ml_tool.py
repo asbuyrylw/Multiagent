@@ -80,11 +80,30 @@ def train_housing_prediction_model(prepared_data, target_column='will_sell_withi
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
     
-    # Train multiple models
+    # Train multiple models with better regularization to prevent overfitting
     models = {
-        'Random Forest': RandomForestClassifier(n_estimators=100, random_state=42, max_depth=10),
-        'Gradient Boosting': GradientBoostingClassifier(n_estimators=100, random_state=42, max_depth=6),
-        'Logistic Regression': LogisticRegression(random_state=42, max_iter=1000)
+        'Random Forest': RandomForestClassifier(
+            n_estimators=100, 
+            random_state=42, 
+            max_depth=8,  # Reduced depth
+            min_samples_split=10,
+            min_samples_leaf=5,
+            max_features='sqrt'
+        ),
+        'Gradient Boosting': GradientBoostingClassifier(
+            n_estimators=100, 
+            random_state=42, 
+            max_depth=4,  # Reduced depth
+            learning_rate=0.1,
+            min_samples_split=10,
+            min_samples_leaf=5
+        ),
+        'Logistic Regression': LogisticRegression(
+            random_state=42, 
+            max_iter=1000,
+            C=1.0,  # Regularization
+            penalty='l2'
+        )
     }
     
     results = {}

@@ -24,18 +24,35 @@ def get_redfin_data(location, property_count=100):
         bathrooms = random.choice([1, 1.5, 2, 2.5, 3, 3.5, 4])
         sqft = random.randint(800, 4500)
         
+        # Set location-specific base values
+        if "cincinnati" in location.lower() or "ohio" in location.lower():
+            base_lat, base_lon = 39.1031, -84.5120  # Cincinnati coordinates
+            base_value_range = (150000, 800000)
+        else:
+            base_lat, base_lon = 47.6062, -122.3321  # Default to Seattle
+            base_value_range = (400000, 1500000)
+            
         # Location factors
-        lat = 47.6062 + random.uniform(-0.3, 0.3)  # Seattle area
-        lon = -122.3321 + random.uniform(-0.3, 0.3)
+        lat = base_lat + random.uniform(-0.3, 0.3)
+        lon = base_lon + random.uniform(-0.3, 0.3)
         
         # Time-based factors
         days_since_last_sale = random.randint(30, 3650)  # 1 month to 10 years
         past_sales_count = random.randint(1, 8)
         
-        # Market factors
-        current_value = random.randint(400000, 1800000)
-        purchase_price = current_value * random.uniform(0.6, 1.2)  # Some appreciation/depreciation
-        value_appreciation = (current_value - purchase_price) / purchase_price
+        # Property values with more realistic variation
+        base_value = random.randint(base_value_range[0], base_value_range[1])
+        # Value based on size and features (but not perfectly correlated)
+        size_multiplier = 0.7 + (sqft / 4500) * 0.6  # 0.7 to 1.3 range
+        feature_multiplier = 1 + (bedrooms - 2) * 0.05 + (bathrooms - 1) * 0.03
+        
+        current_value = int(base_value * size_multiplier * feature_multiplier * random.uniform(0.85, 1.15))
+        purchase_price = int(current_value * random.uniform(0.6, 1.2))  # More realistic price variation
+        
+        if purchase_price > 0:
+            value_appreciation = (current_value - purchase_price) / purchase_price
+        else:
+            value_appreciation = 0
         
         # Neighborhood factors (mock)
         avg_neighbor_appreciation = random.uniform(-0.1, 0.4)
@@ -50,19 +67,34 @@ def get_redfin_data(location, property_count=100):
         area_population_change = random.uniform(-0.05, 0.15)
         area_income_change = random.uniform(-0.03, 0.12)
         
-        # Create likelihood of selling (this would be our target variable)
-        # Higher likelihood if: high equity, old purchase, frequent past sales, area growth
-        sell_probability = (
-            equity_ratio * 0.3 +
-            min(days_since_last_sale / 1825, 1) * 0.2 +  # Normalize to 0-1 over 5 years
-            min(past_sales_count / 5, 1) * 0.1 +
-            (area_population_change + 0.05) / 0.2 * 0.2 +  # Normalize to 0-1
-            (value_vs_neighbors + 0.1) / 0.5 * 0.2  # Normalize to 0-1
-        )
+        # FIXED: Create more realistic likelihood of selling with proper noise and independence
+        # Base probability influenced by market conditions and random factors
+        base_sell_prob = 0.15  # Base 15% chance per year
         
-        # Add some noise and clamp to 0-1
-        sell_probability = max(0, min(1, sell_probability + random.uniform(-0.2, 0.2)))
-        will_sell = sell_probability > 0.6  # Binary target
+        # Market timing factors (seasonal, economic cycles)
+        market_timing_factor = random.uniform(0.8, 1.2)
+        
+        # Life events (job changes, family size, age-related moves) - random
+        life_event_factor = random.uniform(0.5, 2.0)
+        
+        # Economic pressure (independent of our features to avoid leakage)
+        economic_pressure = random.uniform(0.7, 1.5)
+        
+        # Personal factors (moving for lifestyle, etc.)
+        personal_factor = random.uniform(0.6, 1.8)
+        
+        # Calculate final probability with substantial randomness
+        sell_probability = base_sell_prob * market_timing_factor * life_event_factor * economic_pressure * personal_factor
+        
+        # Add significant noise to break any remaining correlations
+        noise = random.normalvariate(0, 0.15)  # Normal distribution noise
+        sell_probability += noise
+        
+        # Clamp to realistic range
+        sell_probability = max(0.01, min(0.95, sell_probability))
+        
+        # Binary target with variable threshold for more realism
+        will_sell = sell_probability > random.uniform(0.4, 0.7)
         
         property_data = {
             'property_id': f'RF_{location}_{i+1:04d}',
