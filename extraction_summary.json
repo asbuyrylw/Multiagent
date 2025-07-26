@@ -1,0 +1,15 @@
+{
+  "extraction_time": "2025-07-25 12:14:58",
+  "source_url": "https://public.tableau.com/app/profile/nmdb.fhfa/viz/NMDBDashboardModel1v1/DS1",
+  "csv_found": false,
+  "scraped_data_found": false,
+  "official_sources": [
+    "https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics",
+    "https://www.fhfa.gov/document/nmdb-outstanding-mortgage-statistics-all-quarterly.zip",
+    "https://www.fhfa.gov/document/nmdb-new-mortgage-statistics-all-annual.zip"
+  ],
+  "downloaded_files": [
+    "nmdb-outstanding-mortgage-statistics-all-quarterly.zip",
+    "nmdb-new-mortgage-statistics-all-annual.zip"
+  ]
+}
