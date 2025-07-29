@@ -1,0 +1,52 @@
+{
+  "analysis_date": "2025-07-26T15:02:41.340827",
+  "dataset_info": {
+    "total_properties": 700,
+    "data_source": "Redfin Cincinnati",
+    "collection_date": "2025-07-26T15:01:18.831837"
+  },
+  "price_statistics": {
+    "mean": 395454.8142857143,
+    "median": 299900.0,
+    "min": 3000.0,
+    "max": 2250000.0,
+    "std": 304741.4583061621
+  },
+  "feature_summary": {
+    "numeric_features": 30,
+    "categorical_features": 11,
+    "boolean_features": 6
+  },
+  "top_neighborhoods": {
+    "Price Hill": 44,
+    "Anderson Twp.": 32,
+    "Colerain Twp.East": 28,
+    "Westwood": 28,
+    "Montgomery": 26,
+    "Clifton": 24,
+    "Hyde Park": 22,
+    "Norwood": 22,
+    "Union Twp.": 20,
+    "Green Twp.": 20
+  },
+  "bedroom_distribution": {
+    "3.0": 278,
+    "4.0": 204,
+    "2.0": 104,
+    "5.0": 54,
+    "1.0": 18,
+    "6.0": 6,
+    "9.0": 2,
+    "17.0": 2,
+    "8.0": 2,
+    "10.0": 2,
+    "7.0": 2
+  },
+  "price_segments": {
+    "Moderate": 288,
+    "Upper_Mid": 194,
+    "Luxury": 74,
+    "Budget": 74,
+    "Ultra_Luxury": 70
+  }
+}
