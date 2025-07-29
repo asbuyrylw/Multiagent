@@ -1,0 +1,19 @@
+property_id,address,predicted_will_sell,sell_probability,confidence_level
+"RF_Clermont County, OH_0138",2806 Main Rd,True,0.9999739804242433,High
+"RF_Clermont County, OH_0136",365 Main St,True,0.9999716118332211,High
+"RF_Clermont County, OH_0002",4578 Main Rd,True,0.9999698285103451,High
+"RF_Clermont County, OH_0014",7344 Cedar Ave,True,0.9999651001477535,High
+"RF_Clermont County, OH_0106",9347 Cedar Blvd,True,0.9999646426496973,High
+"RF_Clermont County, OH_0070",2738 Cedar Rd,True,0.9999646426496973,High
+"RF_Clermont County, OH_0085",8171 Maple Rd,True,0.9999624688621496,High
+"RF_Clermont County, OH_0093",6690 Maple Rd,True,0.9999619768721917,High
+"RF_Clermont County, OH_0100",7158 Pine Blvd,True,0.9999612798013349,High
+"RF_Clermont County, OH_0062",3192 Maple Blvd,True,0.9999399393227559,High
+"RF_Clermont County, OH_0110",2909 Oak Rd,True,0.9999399393227559,High
+"RF_Clermont County, OH_0139",764 Oak Blvd,True,0.9998876825290138,High
+"RF_Clermont County, OH_0027",1077 Cedar St,True,0.9998876825290138,High
+"RF_Clermont County, OH_0010",6672 Oak Blvd,True,0.9996882463486235,High
+"RF_Clermont County, OH_0011",6093 Maple Ave,True,0.9996882463486235,High
+"RF_Clermont County, OH_0132",9102 Main Ave,True,0.9996740746809296,High
+"RF_Clermont County, OH_0007",5813 Oak Ave,True,0.9995088460731386,High
+"RF_Clermont County, OH_0023",7822 Pine Rd,True,0.9994775003761748,High

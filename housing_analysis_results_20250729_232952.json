@@ -1,0 +1,1278 @@
+{
+  "status": "success",
+  "model_performance": {
+    "best_model": "Gradient Boosting",
+    "roc_auc": 0.9519230769230769,
+    "accuracy": 0.9333333333333333,
+    "f1_score": 0.75
+  },
+  "predictions": [
+    {
+      "property_id": "RF_Clermont County, OH_0138",
+      "address": "2806 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999739804242433,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0136",
+      "address": "365 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999716118332211,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0002",
+      "address": "4578 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999698285103451,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0014",
+      "address": "7344 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999651001477535,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0106",
+      "address": "9347 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999646426496973,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0070",
+      "address": "2738 Cedar Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999646426496973,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0085",
+      "address": "8171 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999624688621496,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0093",
+      "address": "6690 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999619768721917,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0100",
+      "address": "7158 Pine Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999612798013349,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0062",
+      "address": "3192 Maple Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999399393227559,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0110",
+      "address": "2909 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999399393227559,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0139",
+      "address": "764 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9998876825290138,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0027",
+      "address": "1077 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9998876825290138,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0010",
+      "address": "6672 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9996882463486235,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0011",
+      "address": "6093 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9996882463486235,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0132",
+      "address": "9102 Main Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9996740746809296,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0007",
+      "address": "5813 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9995088460731386,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0023",
+      "address": "7822 Pine Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9994775003761748,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0061",
+      "address": "5858 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 0.012642734429201,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0105",
+      "address": "340 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00784645398449286,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0078",
+      "address": "5644 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00022499994103762424,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0107",
+      "address": "8860 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00020772095202412191,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0142",
+      "address": "3257 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00020772095202412191,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0120",
+      "address": "7003 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00019686348137362388,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0059",
+      "address": "8973 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00019686348137362388,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0040",
+      "address": "375 Maple Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00019686348137362388,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0072",
+      "address": "9831 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00019681931459572297,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0030",
+      "address": "5823 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 0.00015649759793253488,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0104",
+      "address": "7375 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 6.536607020556477e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0054",
+      "address": "4580 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 6.157261531992319e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0114",
+      "address": "291 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.646011262861817e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0046",
+      "address": "9831 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 4.4246875588992766e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0043",
+      "address": "3134 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 4.149172878497582e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0024",
+      "address": "2432 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 3.352246752019249e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0048",
+      "address": "6182 Maple Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 2.343799050207464e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0013",
+      "address": "1360 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 2.1064595192976214e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0003",
+      "address": "4454 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 2.1057070882660373e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0146",
+      "address": "2948 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.9706604795083623e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0095",
+      "address": "9199 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.8320223729425645e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0082",
+      "address": "7154 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.720567028616082e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0075",
+      "address": "3953 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.7204095909542762e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0019",
+      "address": "3025 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.7172214076804448e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0069",
+      "address": "373 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.3769563992626007e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0149",
+      "address": "6570 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.2809288632369972e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0049",
+      "address": "995 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.2804090761180162e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0001",
+      "address": "7380 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.2784278766825431e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0012",
+      "address": "9859 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 1.2212667215625451e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0088",
+      "address": "3992 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 1.1285899741576e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0015",
+      "address": "2025 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 1.1281857186963026e-05,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0081",
+      "address": "6780 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 9.268024372324907e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0141",
+      "address": "800 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 9.25849149677293e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0109",
+      "address": "4747 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 7.502538853761875e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0125",
+      "address": "1816 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 7.502344915556222e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0045",
+      "address": "5995 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 7.502344915556222e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0083",
+      "address": "5827 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 6.913939020773868e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0108",
+      "address": "8414 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 6.913939020773868e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0021",
+      "address": "3354 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 6.913939020773868e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0121",
+      "address": "1718 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.245560873005738e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0084",
+      "address": "5190 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.245560873005738e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0133",
+      "address": "7335 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.245379708005063e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0145",
+      "address": "5189 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0135",
+      "address": "1430 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0009",
+      "address": "3011 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0022",
+      "address": "3046 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0144",
+      "address": "1154 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0148",
+      "address": "4525 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0091",
+      "address": "1909 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0094",
+      "address": "5186 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0126",
+      "address": "9144 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0119",
+      "address": "3862 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0076",
+      "address": "767 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0067",
+      "address": "5911 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0066",
+      "address": "533 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0056",
+      "address": "4310 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0130",
+      "address": "1153 Maple Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0123",
+      "address": "4785 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0051",
+      "address": "9908 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0050",
+      "address": "6656 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0047",
+      "address": "7666 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0060",
+      "address": "9350 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0064",
+      "address": "2150 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0039",
+      "address": "1723 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0037",
+      "address": "3146 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0042",
+      "address": "7321 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244957362041215e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0134",
+      "address": "5440 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.2449383518247995e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0128",
+      "address": "4481 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.24481253649891e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0055",
+      "address": "5194 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244776217883781e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0052",
+      "address": "5545 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244776217883781e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0025",
+      "address": "6707 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244776217883781e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0057",
+      "address": "6817 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244776217883781e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0118",
+      "address": "9112 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244776217883781e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0089",
+      "address": "3997 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244776217883781e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0006",
+      "address": "203 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0018",
+      "address": "7947 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0127",
+      "address": "2178 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0020",
+      "address": "6163 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0017",
+      "address": "1788 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0016",
+      "address": "1598 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0008",
+      "address": "2617 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0004",
+      "address": "5129 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0122",
+      "address": "4182 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0129",
+      "address": "4712 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0053",
+      "address": "3064 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0068",
+      "address": "2028 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0080",
+      "address": "4057 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0031",
+      "address": "4609 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0026",
+      "address": "3651 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0034",
+      "address": "139 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0033",
+      "address": "6892 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0035",
+      "address": "9331 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0140",
+      "address": "6500 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0137",
+      "address": "8105 Cedar Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0102",
+      "address": "3902 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0096",
+      "address": "6551 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0058",
+      "address": "9805 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0073",
+      "address": "437 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0071",
+      "address": "8154 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0079",
+      "address": "8998 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0113",
+      "address": "1923 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0115",
+      "address": "7446 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0103",
+      "address": "7877 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0090",
+      "address": "8386 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244677337112247e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0077",
+      "address": "2743 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244628632504308e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0044",
+      "address": "8734 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244628632504308e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0036",
+      "address": "3564 Maple Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244498897623774e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0099",
+      "address": "7753 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244498897623774e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0028",
+      "address": "4205 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244474730100212e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0032",
+      "address": "8855 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244474730100212e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0150",
+      "address": "4429 Maple Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.2444501946729015e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0065",
+      "address": "920 Oak Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244334912482043e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0101",
+      "address": "7201 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244314143526067e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0131",
+      "address": "6455 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244197425781444e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0086",
+      "address": "1659 Main Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244172491415937e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0041",
+      "address": "6244 Cedar St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244135316161775e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0005",
+      "address": "9352 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244099033142846e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0116",
+      "address": "4004 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244099033142846e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0092",
+      "address": "4377 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.244057615556165e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0147",
+      "address": "4417 Cedar Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.243941475265837e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0111",
+      "address": "8971 Oak Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.24377056309068e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0029",
+      "address": "3806 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.243407162727314e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0098",
+      "address": "4199 Maple St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.242951127873277e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0112",
+      "address": "5875 Oak St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.24294870272328e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0074",
+      "address": "9326 Oak Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.236033765541463e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0143",
+      "address": "5604 Pine St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.223324173980208e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0124",
+      "address": "8086 Main Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.2223290070675516e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0117",
+      "address": "9619 Main Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.22035571906545e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0097",
+      "address": "9940 Main St",
+      "predicted_will_sell": false,
+      "sell_probability": 5.216550452172772e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0038",
+      "address": "2912 Cedar Blvd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.216271943862706e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0063",
+      "address": "9311 Pine Ave",
+      "predicted_will_sell": false,
+      "sell_probability": 5.215671802623187e-06,
+      "confidence_level": "Low"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0087",
+      "address": "8926 Pine Rd",
+      "predicted_will_sell": false,
+      "sell_probability": 5.21509669693028e-06,
+      "confidence_level": "Low"
+    }
+  ],
+  "high_probability_leads": [
+    {
+      "property_id": "RF_Clermont County, OH_0138",
+      "address": "2806 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999739804242433,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0136",
+      "address": "365 Main St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999716118332211,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0002",
+      "address": "4578 Main Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999698285103451,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0014",
+      "address": "7344 Cedar Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999651001477535,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0106",
+      "address": "9347 Cedar Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999646426496973,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0070",
+      "address": "2738 Cedar Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999646426496973,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0085",
+      "address": "8171 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999624688621496,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0093",
+      "address": "6690 Maple Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999619768721917,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0100",
+      "address": "7158 Pine Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999612798013349,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0062",
+      "address": "3192 Maple Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999399393227559,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0110",
+      "address": "2909 Oak Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9999399393227559,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0139",
+      "address": "764 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9998876825290138,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0027",
+      "address": "1077 Cedar St",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9998876825290138,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0010",
+      "address": "6672 Oak Blvd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9996882463486235,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0011",
+      "address": "6093 Maple Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9996882463486235,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0132",
+      "address": "9102 Main Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9996740746809296,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0007",
+      "address": "5813 Oak Ave",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9995088460731386,
+      "confidence_level": "High"
+    },
+    {
+      "property_id": "RF_Clermont County, OH_0023",
+      "address": "7822 Pine Rd",
+      "predicted_will_sell": true,
+      "sell_probability": 0.9994775003761748,
+      "confidence_level": "High"
+    }
+  ],
+  "insights": {
+    "model_performance": {
+      "best_model": "Gradient Boosting",
+      "roc_auc": 0.9519230769230769,
+      "accuracy": 0.9333333333333333,
+      "precision": 0.75,
+      "recall": 0.75
+    },
+    "top_features": [
+      [
+        "sell_probability",
+        0.9049508183395617
+      ],
+      [
+        "value_vs_neighbors",
+        0.05420294497151984
+      ],
+      [
+        "bathrooms_per_bedroom",
+        0.028940473787803227
+      ],
+      [
+        "area_population_change",
+        0.011039981686652031
+      ],
+      [
+        "bathrooms",
+        0.0002984312042068177
+      ],
+      [
+        "market_appreciation_vs_area",
+        0.0002171600424251353
+      ],
+      [
+        "current_value",
+        0.00012643688991703222
+      ],
+      [
+        "value_appreciation",
+        8.689263501090013e-05
+      ],
+      [
+        "price_per_sqft",
+        6.93860445836846e-05
+      ],
+      [
+        "sqft",
+        4.874250747635554e-05
+      ]
+    ],
+    "data_insights": {
+      "total_properties": 150,
+      "properties_likely_to_sell": "18",
+      "sell_rate": 0.12,
+      "avg_property_value": 1161962.4933333334,
+      "avg_equity_ratio": 0.5583750723268402
+    },
+    "recommendations": [
+      "Focus on properties with high sell_probability - this is the strongest predictor",
+      "Target properties with high equity ratios - owners are more likely to sell",
+      "Consider properties that haven't sold recently - owners may be ready for a change",
+      "Area demographics are important - focus on growing or changing neighborhoods"
+    ]
+  },
+  "feature_importance": {
+    "sell_probability": 0.9049508183395617,
+    "value_vs_neighbors": 0.05420294497151984,
+    "bathrooms_per_bedroom": 0.028940473787803227,
+    "area_population_change": 0.011039981686652031,
+    "bathrooms": 0.0002984312042068177,
+    "market_appreciation_vs_area": 0.0002171600424251353,
+    "current_value": 0.00012643688991703222,
+    "value_appreciation": 8.689263501090013e-05,
+    "price_per_sqft": 6.93860445836846e-05,
+    "sqft": 4.874250747635554e-05,
+    "value_growth_rate": 1.8688658418797024e-05,
+    "mortgage_balance": 1.6408187814539404e-08,
+    "equity": 1.2776435306613543e-08,
+    "days_since_last_sale": 1.0030848337553959e-08,
+    "years_since_purchase": 3.800550746314739e-09
+  },
+  "summary": {
+    "total_properties_analyzed": 150,
+    "high_probability_count": 18,
+    "medium_probability_count": 0,
+    "low_probability_count": 132,
+    "avg_sell_probability": 0.12013703560242775,
+    "model_accuracy": 0.9333333333333333
+  }
+}
